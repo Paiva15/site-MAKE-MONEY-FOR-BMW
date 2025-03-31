@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <section id="MAKE MONEY FOR BMW" tabindex="0"></section>
+
+    <h1> Make money for BMW </h1>
+
+    <img src="images/Captura de tela_2025-03-17_09-57-56.png" alt="make money for BMW">
+
+    <h2> João Nardi </h2>
+
+    <button
+onclick="mostrarImagem()">Mostrar Imagem</button>
+
+
+    <img id="imagem"
+src="Carro.jpg" style="display: none; width: 300px;">
+
+
+   
+
+
+    <script>
+
+
+        function mostrarImagem() {
+
+
+            document.getElementById("imagem").style.display
+= "block";
+
+
+        }
+
+
+    </script>
+    
+</body>
+</html>
